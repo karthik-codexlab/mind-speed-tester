@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #0f0f14;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    padding: 40px;
+    min-height: 100vh;
+    color: #fff;
+}
+
+
+/* NAV */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* PANELS */
+.panel {
+    background: rgba(15,15,15,0.85);
+    border-radius: 28px;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    font-size: 44px;
+    margin-bottom: 15px;
+}
+
+.brace {
+    color: #cdbbff;
+}
+
+.info {
+    max-width: 500px;
+    margin: 0 auto 25px;
+    font-size: 14px;
+    opacity: 0.85;
+}
+
+input, select {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    background: #cdbbff;
+    color: #0f0f0f;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* GAME */
+#arena {
+    width: 600px;
+    height: 320px;
+    margin: 30px auto;
+    background: #ecfdf5;
+    border-radius: 20px;
+    position: relative;
+}
+
+#target {
+    width: 36px;
+    height: 36px;
+    background: #ef4444;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 0 12px rgba(239,68,68,0.8);
+}
+
+.icon {
+    pointer-events: none;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 16px;
+}
+
+/* ✅ FIXED & IMPROVED CREATOR TAG */
+.creator-tag {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+
+    padding: 8px 16px;
+    border-radius: 24px;
+
+    background: linear-gradient(
+        135deg,
+        rgba(205, 187, 255, 0.95),
+        rgba(160, 140, 255, 0.95)
+    );
+
+    color: #1e1b2e;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.35),
+        inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+
+    pointer-events: none;
+    z-index: 1000;
+}
+.creator-tag::before {
+    content: '👾';
+    margin-right: 8px;
+}
+
+.game-preview {
+    margin: 20px auto 30px;
+    max-width: 720px;
+}
+
+.game-preview img {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+}
