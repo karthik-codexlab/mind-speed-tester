@@ -20,7 +20,7 @@ and hand–eye coordination under time pressure.
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d2bdfa8-1bef-4f75-a2d4-f8256c052d8c" width="700" />
+<img width="1887" height="937" alt="Screenshot 2026-01-12 211922" src="https://github.com/user-attachments/assets/c174661d-1fa0-4fdd-a723-3d4d9a8bb973" />
 </p>
 
 <p align="center">
